@@ -1,0 +1,8 @@
+n=int(input("enter the value"))
+a,b=0,1
+
+for i in range(n):
+    if a>n:
+        break 
+    else:
+        print(a,end='  ')
