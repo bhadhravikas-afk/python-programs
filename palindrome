@@ -1,0 +1,5 @@
+line=input("enter the word")
+if line==line[::-1]:
+    print("palindrome")
+else:
+    print("not")    
