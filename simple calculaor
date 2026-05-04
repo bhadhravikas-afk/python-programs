@@ -1,0 +1,19 @@
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+def multi(a,b):
+    return a*b
+def divi(a,b):
+    return a/b
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+op=input("enter the operation")
+if op=='+':
+    print(add(a,b))
+if op=='-':
+    print(sub(a,b))
+if op=='*':
+    print(multi(a,b))
+if op=='/':
+    print(divi(a,b))
