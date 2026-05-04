@@ -1,0 +1,5 @@
+def sent(sentence):
+    words=sentence.split()
+    print(len(words))
+line= input("enter the line")
+print(sent(line))
